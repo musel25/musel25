@@ -25,10 +25,9 @@ Building production-grade LLM-powered agents, reasoning systems, and evaluation 
 ![FastAPI](https://img.shields.io/badge/FastAPI-Production-009688?style=flat-square&logo=fastapi&logoColor=white) -->
 
 ## Daily Coding & Research
-I ship LLM/agent experiments **every day** on YouTube  
-➜ [youtube.com/@museltabares](https://www.youtube.com/@museltabares)  
+I ship LLM/agent experiments **every day** on [youtube.com/@museltabares](https://www.youtube.com/@museltabares)  
 
-
+DMs on discord: m0285_ 
 <!-- ## GitHub Stats
 
 ![Stats](https://github-readme-stats.vercel.app/api?username=musel25&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
@@ -36,5 +35,3 @@ I ship LLM/agent experiments **every day** on YouTube
 
 <!-- ## Currently Working On
 - Evaluation and Development of Reinforcement Fine-Tuning Techniques for Network Telemetry AI Agents at Orange Labs -->
-
-→ DMs on discord: m0285_ 
