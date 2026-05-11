@@ -4,7 +4,7 @@
 
 AI Research Engineer at Orange Labs (Paris), building autonomous AI agents that can independently negotiate, pay for, and activate real infrastructure services from other agents — no human in the loop. My work spans the emerging agentic-web protocol stack (Google A2A, MCP), smart-contract escrow on Foundry, and SDN control of containerized networks. Background: Erasmus Mundus MSc in AI & Optimization (UTC, France); thesis defense September 2026.
 
-Throughline: agent architectures, multi-agent coordination, RAG / LLM systems, and applied optimization — taken from a notebook to something that actually runs. Research rigor, production discipline, no buzzword bingo.
+Throughline: agent architectures, multi-agent coordination, RAG / LLM systems, and applied optimization .
 
 ## Featured projects
 
