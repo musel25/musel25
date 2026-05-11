@@ -1,37 +1,48 @@
-# Musel Tabares
-**Large Language Models • Autonomous Agents • Applied AI Systems**
+# Müsel Tabares
 
-<!-- [![GitHub followers](https://img.shields.io/github/followers/musel25?style=social)](https://github.com/musel25) -->
+**AI Research Engineer · agentic systems, LLMs, applied optimization · open to EU roles from September 2026**
 
-Building production-grade LLM-powered agents, reasoning systems, and evaluation frameworks.
+AI Research Engineer at Orange Labs (Paris), building autonomous AI agents that can independently negotiate, pay for, and activate real infrastructure services from other agents — no human in the loop. My work spans the emerging agentic-web protocol stack (Google A2A, MCP), smart-contract escrow on Foundry, and SDN control of containerized networks. Background: Erasmus Mundus MSc in AI & Optimization (UTC, France); thesis defense September 2026.
 
-## Focus Areas
-- Fine-tuning & alignment of open-source LLMs (Llama 3, Mistral, Qwen, etc.)
-- Agent architectures: ReAct, Tool-use, Multi-agent systems, Long-context reasoning
-- RAG pipelines, vector stores, retrieval evaluation, and context optimization
-- LLM evaluation (MT-Bench, Arena-Hard, custom reasoning benchmarks)
-- Inference optimization (vLLM, TensorRT-LLM, quantization-aware training)
+Throughline: agent architectures, multi-agent coordination, RAG / LLM systems, and applied optimization — taken from a notebook to something that actually runs. Research rigor, production discipline, no buzzword bingo.
 
-<!-- ## Core Stack
-![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.4+-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Transformers](https://img.shields.io/badge/Transformers-24.0+-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![LangChain](https://img.shields.io/badge/LangChain-LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![Llama.cpp](https://img.shields.io/badge/llama.cpp-GGUF-4CAF50?style=flat-square)
-![vLLM](https://img.shields.io/badge/vLLM-Punica-FF6F00?style=flat-square)
-![QLoRA](https://img.shields.io/badge/QLoRA-PEFT-9C27B0?style=flat-square)
-![Axolotl](https://img.shields.io/badge/Axolotl-Training-2196F3?style=flat-square)
-![Docker](https://img.shields.io/badge/Docker-K8s-2496ED?style=flat-square&logo=docker&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-Production-009688?style=flat-square&logo=fastapi&logoColor=white) -->
+## Featured projects
 
-## Daily Coding & Research
-I ship LLM/agent experiments **every day** on [youtube.com/@museltabares](https://www.youtube.com/@museltabares)  
+| Project | What it does | Stack |
+|---|---|---|
+| [**ollama-agent-simulation**](https://github.com/musel25/ollama-agent-simulation) | **Thesis PoC** — a consumer agent and a provider agent negotiate a bandwidth service, settle payment on-chain for an ERC-721 access credential, and that credential is enforced at runtime by an SDN controller. | Python · FastAPI · MCP · A2A · Foundry/Solidity · Ollama · Docker |
+| [**srl-gnmi-bandwidth-poc**](https://github.com/musel25/srl-gnmi-bandwidth-poc) | The SDN activation layer: pushes a QoS policer to a Nokia SR Linux PE router over gNMI, enforces it with Linux `tc`, verifies with iperf3 — all exposed as MCP tools an agent can call directly. | Python · gNMI/pygnmi · Containerlab · Nokia SR Linux · MCP |
+| [**multi-agent-mcp-demo**](https://github.com/musel25/multi-agent-mcp-demo) | Two Claude agents coordinate a buy/sell transaction through a shared MCP server — no orchestrator, pure message-passing, no human after startup. | Python · MCP (FastMCP) · SSE |
+| [**telemetry-rag**](https://github.com/musel25/telemetry-rag) | Local-first RAG over network-telemetry docs (YANG modules, gNMI captures, snapshots) — Qdrant vector store, Ollama or OpenAI backends, a small `index` / `ask` CLI. | Python · Qdrant · Ollama · OpenAI |
+| [**Instruction-Preference-FineTuning-Pipeline**](https://github.com/musel25/Instruction-Preference-FineTuning-Pipeline) | Reproducible Hydra pipeline for LLM supervised fine-tuning (LoRA / QLoRA) and preference alignment (DPO / ORPO), wired for DeepSpeed/FSDP, W&B/MLflow and LightEval / lm-eval. | Python · PyTorch · TRL · PEFT · Hydra · DeepSpeed |
+| [**claude-usage-widget**](https://github.com/musel25/claude-usage-widget) | Linux desktop widget + terminal CLI showing claude.ai usage limits — GTK3 GUI, truecolor dashboard, local response cache. | Python · GTK3 / PyGObject |
 
-DMs on discord: m0285_ 
-<!-- ## GitHub Stats
+## What I'm working on now
 
-![Stats](https://github-readme-stats.vercel.app/api?username=musel25&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=musel25&layout=compact&theme=tokyonight&hide_border=true) -->
+- **MSc thesis (defense Sept 2026)** — one of the first end-to-end tokenized service exchanges between mutually untrusted AI agents: on-chain settlement for an ERC-721 access credential, enforced at runtime by an SDN controller. → [ollama-agent-simulation](https://github.com/musel25/ollama-agent-simulation) · [srl-gnmi-bandwidth-poc](https://github.com/musel25/srl-gnmi-bandwidth-poc)
+- **Governed multi-agent network automation** — separating intent synthesis from execution authority behind an explicit, immutably-recorded approval boundary. → [zero-trust-agentic-network-telemetry](https://github.com/musel25/zero-trust-agentic-network-telemetry)
+- **Foundations** — working through LLM internals, RAG, and fine-tuning / alignment pipelines from scratch alongside the applied work.
 
-<!-- ## Currently Working On
-- Evaluation and Development of Reinforcement Fine-Tuning Techniques for Network Telemetry AI Agents at Orange Labs -->
+## Tech stack
+
+`Python` · `PyTorch` · `LangChain` · `Qdrant` · `Docker` · `Foundry / Solidity` · `Linux` · `gNMI · Containerlab` · `FastAPI` · `Git`
+
+## Looking for
+
+Full-time **Research Engineer / ML Engineer** roles in the EU, available **September 2026**.
+
+## Contact
+
+- Email — `museltabarespardo@gmail.com`
+- LinkedIn — [linkedin.com/in/musel](https://www.linkedin.com/in/musel/)
+- Web — [musel.dev](https://musel.dev)
+
+---
+
+<p align="center">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=musel25&show_icons=true&hide_border=true&include_all_commits=true&theme=default" alt="GitHub stats" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=musel25&layout=compact&hide_border=true&langs_count=8&theme=default" alt="Top languages" />
+</p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=musel25&hide_border=true&theme=default" alt="GitHub streak" />
+</p>
