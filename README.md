@@ -33,9 +33,9 @@ Full-time **Research Engineer / ML Engineer** roles in the EU, available **Septe
 
 ## Contact
 
-- Email — `museltabarespardo@gmail.com`
 - LinkedIn — [linkedin.com/in/musel](https://www.linkedin.com/in/musel/)
 - Web — [musel.dev](https://musel.dev)
+- YouTube — [youtube.com/@museltabares](https://www.youtube.com/@museltabares)
 
 ---
 
